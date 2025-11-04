@@ -1,0 +1,92 @@
+/* ======= Estilos gerais ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0941b9, #ff7b00);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======= Container ======= */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 40px 30px;
+}
+
+/* ======= Form ======= */
+.form-box h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-field input:focus {
+    border-color: #ff4500;
+}
+
+/* ======= Links ======= */
+form p {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
+
+form p a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* ======= Botões ======= */
+.btn-field {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-field button {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff4500, #ff7b00);
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-field button:hover {
+    opacity: 0.9;
+}
+
+.btn-field .disable {
+    background: #ccc;
+    color: #555;
+}
